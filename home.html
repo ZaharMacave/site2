@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n-title="page.title.home">Zahar Paulo Macave</title>
+  <meta name="description" content="Portfólio de Zahar Paulo Macave — Especialista Linux, ERPNext e Desenvolvedor de Sistemas.">
+  
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="signature/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="signature/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="signature/favicon_io/favicon-16x16.png">
+  <link rel="shortcut icon" href="signature/favicon_io/favicon.ico">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- LOADING SCREEN -->
+  <div id="loader">
+    <div class="loader-mark" id="loaderMark">
+      <img src="assets/signature/ChatGPT Image May 13, 2026, 08_46_43 PM.png" alt="Zahar Paulo Macave">
+    </div>
+    <div class="loader-bar-track"><div class="loader-bar-fill" id="loaderFill"></div></div>
+    <div class="loader-caption" data-i18n="home.loader_caption">Quem anda com sabios, será sabio</div>
+  </div>
+
+  <div id="site">
+    <header class="site-header">
+      <div class="wrap nav-inner">
+        <a href="home.html" class="logo" data-page="home">
+          <img src="assets/signature/ChatGPT Image May 13, 2026, 08_46_43 PM.png" alt="Zahar Paulo Macave">
+        </a>
+        <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="menuPanel">
+          <span data-i18n="nav.menu">Menu</span> <span class="menu-btn-plus">+</span>
+        </button>
+      </div>
+    </header>
+
+    <div class="menu-backdrop" id="menuBackdrop"></div>
+    <div class="menu-panel" id="menuPanel">
+      <div class="menu-panel-top">
+        <button class="menu-close" id="menuCloseBtn" aria-label="Fechar menu">
+          <span data-i18n="nav.close">Fechar</span> <span class="menu-close-x">✕</span>
+        </button>
+      </div>
+      <nav class="menu-panel-links">
+        <a href="home.html" data-page="home"><span data-i18n="nav.home">Home</span><sup>01</sup></a>
+        <a href="about.html" data-page="sobre"><span data-i18n="nav.about">Sobre</span><sup>02</sup></a>
+        <a href="skills.html" data-page="carreira"><span data-i18n="nav.career">Carreira</span><sup>03</sup></a>
+        <a href="galeria.html" data-page="galeria"><span data-i18n="nav.gallery">Galeria</span><sup>04</sup></a>
+        <a href="contacto.html" data-page="contacto"><span data-i18n="nav.contact">Contacto</span><sup>05</sup></a>
+      </nav>
+      <div class="menu-panel-lang">
+        <span data-i18n="lang.label">Idioma</span>
+        <div class="lang-toggle">
+          <button class="lang-opt active" data-lang="pt">PT</button>
+          <span>/</span>
+          <button class="lang-opt" data-lang="en">EN</button>
+        </div>
+      </div>
+    </div>
+
+    <main class="wrap">
+      <!-- HOME -->
+      <section class="page active" id="page-home">
+        <div class="home-hero">
+          <div class="home-hero-bg">
+            <div class="home-bg-img" style="background-image: url('assets/imgs/pessoais/u4vl2.jpg');"></div>
+            <canvas id="spaceParticles" class="home-space-canvas"></canvas>
+            <div class="home-bg-overlay"></div>
+          </div>
+          <div class="wrap home-hero-inner">
+            <div class="home-name">
+              <div class="name-line-wrap"><span class="home-name-line">Zahar</span></div>
+              <div class="name-line-wrap"><span class="home-name-line">Paulo</span></div>
+              <div class="name-line-wrap"><span class="home-name-line">Macave</span></div>
+              <div class="home-tag">
+                <span class="tag-pill" data-i18n="home.tagline">Prince</span>
+                <span class="tag-pill" data-i18n="home.location">Maputo, Moçambique</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="footer-top">
+          <!-- Coluna 1: Globo Terrestre Interativo apontando para Moçambique / África -->
+          <div class="footer-col">
+            <div class="globe-card">
+              <div class="globe-canvas-wrap">
+                <canvas id="footerGlobe" width="110" height="110"></canvas>
+              </div>
+              <div class="globe-details">
+                <span class="globe-tag">Localização</span>
+                <h4 class="globe-country">Moçambique</h4>
+                <span class="globe-geo">Maputo · 25.96° S, 32.58° E</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Coluna 2: Navegação -->
+          <div class="footer-col">
+            <h4 data-i18n="footer.nav.title">Navegação</h4>
+            <div class="footer-links">
+              <a href="home.html" data-i18n="nav.home">Home</a>
+              <a href="about.html" data-i18n="nav.about">Sobre</a>
+              <a href="skills.html" data-i18n="nav.career">Carreira</a>
+              <a href="galeria.html" data-i18n="nav.gallery">Galeria</a>
+              <a href="contacto.html" data-i18n="nav.contact">Contacto</a>
+            </div>
+          </div>
+
+          
+
+        <div class="footer-bottom">
+          <p>© <span id="year"></span> Zahar Paulo Macave. <span data-i18n="footer.rights">Todos os direitos reservados.</span></p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="assets/js/index.js"></script>
+</body>
+</html>

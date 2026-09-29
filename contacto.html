@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n-title="page.title.contact">Contacto — Zahar Paulo Macave</title>
+  <meta name="description" content="Entre em contacto com Zahar Paulo Macave para projetos, consultoria ERPNext ou implementação de soluções Linux.">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/signature/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/signature/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/signature/favicon_io/favicon-16x16.png">
+  <link rel="shortcut icon" href="assets/signature/favicon_io/favicon.ico">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="page-contact">
+  <div id="site">
+    <header class="site-header">
+      <div class="wrap nav-inner">
+        <a href="home.html" class="logo" data-page="home">
+          <img src="assets/signature/ChatGPT Image May 13, 2026, 08_46_43 PM.png" alt="Zahar Paulo Macave">
+        </a>
+        <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="menuPanel">
+          <span data-i18n="nav.menu">Menu</span> <span class="menu-btn-plus">+</span>
+        </button>
+      </div>
+    </header>
+
+    <div class="menu-backdrop" id="menuBackdrop"></div>
+    <div class="menu-panel" id="menuPanel">
+      <div class="menu-panel-top">
+        <button class="menu-close" id="menuCloseBtn" aria-label="Fechar menu">
+          <span data-i18n="nav.close">Fechar</span> <span class="menu-close-x">✕</span>
+        </button>
+      </div>
+      <nav class="menu-panel-links">
+        <a href="home.html" data-page="home"><span data-i18n="nav.home">Home</span><sup>01</sup></a>
+        <a href="about.html" data-page="sobre"><span data-i18n="nav.about">Sobre</span><sup>02</sup></a>
+        <a href="skills.html" data-page="carreira"><span data-i18n="nav.career">Carreira</span><sup>03</sup></a>
+        <a href="galeria.html" data-page="galeria"><span data-i18n="nav.gallery">Galeria</span><sup>04</sup></a>
+        <a href="contacto.html" data-page="contacto"><span data-i18n="nav.contact">Contacto</span><sup>05</sup></a>
+      </nav>
+      <div class="menu-panel-lang">
+        <span data-i18n="lang.label">Idioma</span>
+        <div class="lang-toggle">
+          <button class="lang-opt active" data-lang="pt">PT</button>
+          <span>/</span>
+          <button class="lang-opt" data-lang="en">EN</button>
+        </div>
+      </div>
+    </div>
+
+    <main class="wrap">
+      <!-- CONTACTO -->
+      <section class="page active" id="page-contacto">
+        <div class="section-tight">
+          <div class="eyebrow-row">
+            <span class="chip coral" data-i18n="contact.chip">Contacto</span>
+            <div class="rule"></div>
+          </div>
+          <h2 class="section-title" data-i18n="contact.title">Vamos construir algo juntos</h2>
+          <p class="section-lede" style="margin-bottom:44px;" data-i18n="contact.lede">Tens um projeto em mente? Envia os detalhes e respondo o mais rápido possível.</p>
+
+          <div class="contact-grid">
+            <form class="contact-form" id="contactForm">
+              <div class="field">
+                <label for="fname" data-i18n="contact.form.name">Nome</label>
+                <input id="fname" type="text" placeholder="O teu nome" data-i18n-placeholder="contact.form.name_placeholder" required>
+              </div>
+              <div class="field">
+                <label for="femail" data-i18n="contact.form.email">Email</label>
+                <input id="femail" type="email" placeholder="o-teu-email@exemplo.com" data-i18n-placeholder="contact.form.email_placeholder" required>
+              </div>
+              <div class="field">
+                <label for="fmsg" data-i18n="contact.form.msg">Mensagem</label>
+                <textarea id="fmsg" placeholder="Conta-me sobre o teu projeto..." data-i18n-placeholder="contact.form.msg_placeholder" required></textarea>
+              </div>
+              <button class="btn btn-primary" type="submit" id="sendBtn" data-i18n="contact.form.submit">Enviar mensagem →</button>
+            </form>
+
+            <div class="contact-info-card">
+              <div>
+                <h3 data-i18n="contact.direct.title">Fala diretamente</h3>
+                <p data-i18n="contact.direct.desc">Preferes um contacto mais direto? Usa um dos canais abaixo.</p>
+                <div class="contact-links">
+                  <a href="mailto:zaharcave@gmail.com">
+                    <span class="contact-link-left">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                      <span>Email</span>
+                    </span>
+                    <span class="contact-link-arrow">→</span>
+                  </a>
+                  <a href="https://www.linkedin.com/in/zahar-paulo-macave-577042334/" target="_blank" rel="noopener noreferrer">
+                    <span class="contact-link-left">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.25V10.9H6.46M7.86 6.72a1.63 1.63 0 1 0 0 3.26 1.63 1.63 0 0 0 0-3.26Z"/></svg>
+                      <span>LinkedIn</span>
+                    </span>
+                    <span class="contact-link-arrow">→</span>
+                  </a>
+                  <a href="https://github.com/ZaharMacave" target="_blank" rel="noopener noreferrer">
+                    <span class="contact-link-left">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg>
+                      <span>GitHub</span>
+                    </span>
+                    <span class="contact-link-arrow">→</span>
+                  </a>
+                  <a href="https://www.instagram.com/paulo_cave_/" target="_blank" rel="noopener noreferrer">
+                    <span class="contact-link-left">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                      <span>Instagram</span>
+                    </span>
+                    <span class="contact-link-arrow">→</span>
+                  </a>
+                </div>
+              </div>
+              <p style="margin-top:26px;font-size:.82rem;" data-i18n="contact.direct.location">Baseado em Maputo, Moçambique · disponível para projetos remotos</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="footer-top">
+          <!-- Coluna 1: Globo Terrestre Interativo apontando para Moçambique / África -->
+          <div class="footer-col">
+            <div class="globe-card">
+              <div class="globe-canvas-wrap">
+                <canvas id="footerGlobe" width="110" height="110"></canvas>
+              </div>
+              <div class="globe-details">
+                <span class="globe-tag">Localização</span>
+                <h4 class="globe-country">Moçambique</h4>
+                <span class="globe-geo">Maputo · 25.96° S, 32.58° E</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Coluna 2: Navegação -->
+          <div class="footer-col">
+            <h4 data-i18n="footer.nav.title">Navegação</h4>
+            <div class="footer-links">
+              <a href="home.html" data-i18n="nav.home">Home</a>
+              <a href="about.html" data-i18n="nav.about">Sobre</a>
+              <a href="skills.html" data-i18n="nav.career">Carreira</a>
+              <a href="galeria.html" data-i18n="nav.gallery">Galeria</a>
+              <a href="contacto.html" data-i18n="nav.contact">Contacto</a>
+            </div>
+          </div>
+
+         
+        <div class="footer-bottom">
+          <p>© <span id="year"></span> Zahar Paulo Macave. <span data-i18n="footer.rights">Todos os direitos reservados.</span></p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="assets/js/index.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n-title="page.title.gallery">Galeria de Fotos — Zahar Paulo Macave</title>
+  <meta name="description" content="Galeria de fotografias de Zahar Paulo Macave — Momentos, ambientes urbanos, viagens e natureza.">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/signature/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/signature/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/signature/favicon_io/favicon-16x16.png">
+  <link rel="shortcut icon" href="assets/signature/favicon_io/favicon.ico">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="page-gallery">
+  <div id="site">
+    <header class="site-header">
+      <div class="wrap nav-inner">
+        <a href="home.html" class="logo" data-page="home">
+          <img src="assets/signature/ChatGPT Image May 13, 2026, 08_46_43 PM.png" alt="Zahar Paulo Macave">
+        </a>
+        <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="menuPanel">
+          <span data-i18n="nav.menu">Menu</span> <span class="menu-btn-plus">+</span>
+        </button>
+      </div>
+    </header>
+
+    <div class="menu-backdrop" id="menuBackdrop"></div>
+    <div class="menu-panel" id="menuPanel">
+      <div class="menu-panel-top">
+        <button class="menu-close" id="menuCloseBtn" aria-label="Fechar menu">
+          <span data-i18n="nav.close">Fechar</span> <span class="menu-close-x">✕</span>
+        </button>
+      </div>
+      <nav class="menu-panel-links">
+        <a href="home.html" data-page="home"><span data-i18n="nav.home">Home</span><sup>01</sup></a>
+        <a href="about.html" data-page="sobre"><span data-i18n="nav.about">Sobre</span><sup>02</sup></a>
+        <a href="skills.html" data-page="carreira"><span data-i18n="nav.career">Carreira</span><sup>03</sup></a>
+        <a href="galeria.html" data-page="galeria"><span data-i18n="nav.gallery">Galeria</span><sup>04</sup></a>
+        <a href="contacto.html" data-page="contacto"><span data-i18n="nav.contact">Contacto</span><sup>05</sup></a>
+      </nav>
+      <div class="menu-panel-lang">
+        <span data-i18n="lang.label">Idioma</span>
+        <div class="lang-toggle">
+          <button class="lang-opt active" data-lang="pt">PT</button>
+          <span>/</span>
+          <button class="lang-opt" data-lang="en">EN</button>
+        </div>
+      </div>
+    </div>
+
+    <main class="wrap">
+      <!-- GALERIA DE FOTOS -->
+      <section class="page active" id="page-galeria">
+        <div class="section-tight">
+          <div class="eyebrow-row">
+            <span class="chip alt" data-i18n="gallery.chip">Galeria de Fotos</span>
+            <div class="rule"></div>
+          </div>
+          <h2 class="section-title" data-i18n="gallery.title">Momentos, Ambientes &amp; Natureza</h2>
+          <p class="section-lede" style="margin-bottom:32px;" data-i18n="gallery.lede">Um vislumbre visual dos meus ambientes, viagens pela natureza e registos do dia a dia.</p>
+
+          <!-- FILTROS POR SECÇÃO -->
+          <div class="gal-filters">
+            <button class="filter-btn active" data-filter="all" data-i18n="gallery.filter.all">Todas</button>
+            <button class="filter-btn" data-filter="natureza" data-i18n="gallery.filter.nature">Natureza</button>
+            <button class="filter-btn" data-filter="ambiente" data-i18n="gallery.filter.env">Ambiente</button>
+            <button class="filter-btn" data-filter="retrato" data-i18n="gallery.filter.portrait">Retratos</button>
+          </div>
+
+          <!-- GRID DE FOTOGRAFIAS -->
+          <div class="gal-photo-grid">
+            
+            <!-- Foto 1: Ambiente Urbano / Noite -->
+            <div class="gal-photo-card" data-category="ambiente">
+              <img src="assets/imgs/pessoais/flic-1.jpeg" alt="Noite Urbana" loading="lazy">
+              <div class="gal-photo-overlay">
+                
+              
+              </div>
+            </div>
+
+            <!-- Foto 2: Natureza / Santuário -->
+            <div class="gal-photo-card" data-category="natureza">
+              <img src="assets/imgs/pessoais/flic-2.jpeg" alt="Santuário Selvagem" loading="lazy">
+              <div class="gal-photo-overlay">
+              
+              
+              </div>
+            </div>
+
+            <!-- Foto 3: Natureza / Cavalo & Horizonte -->
+            <div class="gal-photo-card" data-category="natureza">
+              <img src="assets/imgs/pessoais/flic-3.jpeg" alt="Horizonte e Céu Aberto" loading="lazy">
+              <div class="gal-photo-overlay">
+                
+              
+              </div>
+            </div>
+
+            <!-- Foto 4: Ambiente / Urbano Dia -->
+            <div class="gal-photo-card" data-category="ambiente">
+              <img src="assets/imgs/pessoais/flic-4.jpeg" alt="Luz do Dia" loading="lazy">
+              <div class="gal-photo-overlay">
+                
+            
+              </div>
+            </div>
+
+            <!-- Foto 5: Ambiente / Pôr do Sol Maputo -->
+            <div class="gal-photo-card" data-category="ambiente">
+              <img src="assets/imgs/pessoais/flic-5.jpeg" alt="Pôr do Sol em Maputo" loading="lazy">
+              <div class="gal-photo-overlay">
+               
+
+              </div>
+            </div>
+
+            <!-- Foto 6: Ambiente / Treino & Néon -->
+            <div class="gal-photo-card" data-category="ambiente">
+              <img src="assets/imgs/pessoais/flic-6.jpeg" alt="Foco e Determinação" loading="lazy">
+              <div class="gal-photo-overlay">
+               
+             
+              </div>
+            </div>
+
+            <!-- Foto 7: Retrato Pessoal Editorial -->
+            <div class="gal-photo-card" data-category="retrato">
+              <img src="assets/imgs/pessoais/flic-7.jpeg" alt="Presença e Estilo" loading="lazy">
+              <div class="gal-photo-overlay">
+                
+              
+              </div>
+            </div>
+
+            <!-- Foto 8: Natureza / Pôr do Sol Lentes -->
+            <div class="gal-photo-card" data-category="natureza">
+              <img src="assets/imgs/pessoais/flic-8.jpeg" alt="Pôr do Sol pelas Lentes" loading="lazy">
+              <div class="gal-photo-overlay">
+                
+              
+              </div>
+            </div>
+
+            <!-- Foto 9: Retrato / Expressões e Identidade -->
+            <div class="gal-photo-card" data-category="retrato">
+              <img src="assets/imgs/pessoais/flic-9.jpeg" alt="Expressões e Identidade" loading="lazy">
+              <div class="gal-photo-overlay">
+               
+             
+              </div>
+            </div>
+
+            <!-- Foto 10: Retrato / Espontaneidade & Luz -->
+            <div class="gal-photo-card" data-category="retrato">
+              <img src="assets/imgs/pessoais/flic-10.jpeg" alt="Espontaneidade e Luz" loading="lazy">
+              <div class="gal-photo-overlay">
+               
+             
+              </div>
+            </div>
+
+            <!-- Foto 11: Ambiente / Conexões & Vibe Urbana -->
+            <div class="gal-photo-card" data-category="ambiente">
+              <img src="assets/imgs/pessoais/flic-11.jpeg" alt="Conexões e Vibe Urbana" loading="lazy">
+              <div class="gal-photo-overlay">
+               
+         
+              </div>
+            </div>
+
+            <!-- Foto 12: Retrato / Ruas de Maputo & Perspetiva -->
+            <div class="gal-photo-card" data-category="retrato">
+              <img src="assets/imgs/pessoais/flic-12.jpeg" alt="Ruas de Maputo e Perspetiva" loading="lazy">
+              <div class="gal-photo-overlay">
+            
+              
+              </div>
+            </div>
+
+            <!-- Foto 13: Ambiente / Galeria de Arte & Expressão -->
+            <div class="gal-photo-card" data-category="ambiente">
+              <img src="assets/imgs/pessoais/flic-13.jpeg" alt="Galeria de Arte e Expressão" loading="lazy">
+              <div class="gal-photo-overlay">
+                
+              
+              </div>
+            </div>
+
+            <!-- Foto 14: Retrato / 0111.jpeg -->
+            <div class="gal-photo-card" data-category="retrato">
+              <img src="assets/imgs/pessoais/0111.jpeg" alt="Olhar e Perspetiva" loading="lazy">
+              <div class="gal-photo-overlay">
+              
+         
+              </div>
+            </div>
+
+            <!-- Foto 15: Ambiente / 0112.jpeg -->
+            <div class="gal-photo-card" data-category="ambiente">
+              <img src="assets/imgs/pessoais/0112.jpeg" alt="Texturas e Ambientes" loading="lazy">
+              <div class="gal-photo-overlay">
+               
+               
+              </div>
+            </div>
+
+            <!-- Foto 16: Retrato / 0113.jpeg -->
+            <div class="gal-photo-card" data-category="natureza">
+              <img src="assets/imgs/pessoais/0113.jpeg" alt="Perfil e Atitude" loading="lazy">
+              <div class="gal-photo-overlay">
+              
+       
+              </div>
+            </div>
+
+            <!-- Foto 17: Natureza / 0114.jpeg -->
+            <div class="gal-photo-card" data-category="ambiente">
+              <img src="assets/imgs/pessoais/0114.jpeg" alt="Horizontes de Moçambique" loading="lazy">
+              <div class="gal-photo-overlay">
+              
+             
+              </div>
+            </div>
+
+            <!-- Foto 18: Ambiente / 0115.jpeg -->
+            <div class="gal-photo-card" data-category="ambiente">
+              <img src="assets/imgs/pessoais/0115.jpeg" alt="Luz Natural e Detalhes" loading="lazy">
+              <div class="gal-photo-overlay">
+             
+
+              </div>
+            </div>
+
+            <!-- Foto 19: Retrato / 0116.jpeg -->
+            <div class="gal-photo-card" data-category="retrato">
+              <img src="assets/imgs/pessoais/0116.jpeg" alt="Estilo e Autenticidade" loading="lazy">
+              <div class="gal-photo-overlay">
+            
+              
+              </div>
+            </div>
+
+            <!-- Foto 20: Ambiente / 0117.jpeg -->
+            <div class="gal-photo-card" data-category="ambiente">
+              <img src="assets/imgs/pessoais/0117.jpeg" alt="Espaços e Geometria" loading="lazy">
+              <div class="gal-photo-overlay">
+              
+              </div>
+            </div>
+
+            <!-- Foto 21: Natureza / 0118.jpeg -->
+            <div class="gal-photo-card" data-category="ambiente">
+              <img src="assets/imgs/pessoais/0118.jpeg" alt="Verde e Tranquilidade" loading="lazy">
+              <div class="gal-photo-overlay">
+               
+                
+              </div>
+            </div>
+
+            <!-- Foto 22: Ambiente / 0119.jpeg -->
+            <div class="gal-photo-card" data-category="ambiente">
+              <img src="assets/imgs/pessoais/0119.jpeg" alt="Vibe e Quotidiano" loading="lazy">
+              <div class="gal-photo-overlay">
+             
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="footer-top">
+          <!-- Coluna 1: Globo Terrestre Interativo apontando para Moçambique / África -->
+          <div class="footer-col">
+            <div class="globe-card">
+              <div class="globe-canvas-wrap">
+                <canvas id="footerGlobe" width="110" height="110"></canvas>
+              </div>
+              <div class="globe-details">
+                <span class="globe-tag">Localização</span>
+                <h4 class="globe-country">Moçambique</h4>
+                <span class="globe-geo">Maputo · 25.96° S, 32.58° E</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Coluna 2: Navegação -->
+          <div class="footer-col">
+            <h4 data-i18n="footer.nav.title">Navegação</h4>
+            <div class="footer-links">
+              <a href="home.html" data-i18n="nav.home">Home</a>
+              <a href="about.html" data-i18n="nav.about">Sobre</a>
+              <a href="skills.html" data-i18n="nav.career">Carreira</a>
+              <a href="galeria.html" data-i18n="nav.gallery">Galeria</a>
+              <a href="contacto.html" data-i18n="nav.contact">Contacto</a>
+            </div>
+          </div>
+
+        <div class="footer-bottom">
+          <p>© <span id="year"></span> Zahar Paulo Macave. <span data-i18n="footer.rights">Todos os direitos reservados.</span></p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="assets/js/index.js" defer></script>
+</body>
+</html>
