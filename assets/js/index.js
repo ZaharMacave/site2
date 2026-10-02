@@ -25,52 +25,34 @@ const translations = {
     "home.tagline": "WhiteChoc",
     "home.location": "Maputo, Moçambique",
 
+    // Carrossel 3D de Páginas
+    "carousel.welcome": "BEM-VINDO AO MEU",
+    "carousel.portfolio": "PORTFÓLIO",
+    "carousel.role": "DESENVOLVEDOR DE WEBSITES & SISTEMAS WEB",
+    "carousel.card1": "Página Inicial",
+    "carousel.card2": "Sobre Mim",
+    "carousel.card3": "Carreiras & Habilidades",
+    "carousel.card4": "Galeria de Fotos",
+    "carousel.card5": "Contacto",
+    "carousel.dial_text": "ZAHAR MACAVE · PORTFÓLIO · WEBSITES & SISTEMAS WEB · MAPUTO ·",
+
     // Sobre Mim (Foco Pessoal e Humano)
-    "about.chip": "SOBRE MIM",
-    "about.title": "Quem sou eu além do código",
-    "about.lede": "Acredito que um bom profissional é moldado pela sua curiosidade, disciplina e pela forma como enxerga o mundo. Natural de Maputo, sou movido pelo desejo constante de aprender, resolver problemas reais e criar impacto positivo nas pessoas e negócios ao meu redor.",
-    "about.card1.title": "Curiosidade & Resolução",
-    "about.card1.text": "Gosto de entender a fundo como os sistemas e o comportamento humano funcionam. Abordo cada desafio com método, paciência e foco na raiz do problema.",
-    "about.card2.title": "Disciplina & Estilo de Vida",
-    "about.card2.text": "Valorizo a consistência diária, o treino físico, a leitura e a exploração de novos ambientes e perspetivas através da fotografia e da observação.",
-    "about.card3.title": "Valores & Propósito",
-    "about.card3.text": "Acredito em construir relações de confiança e em usar a tecnologia como um motor de autonomia, eficiência e crescimento sustentável para a comunidade.",
-    "about.interests.title": "O que me move",
-    "about.tag.1": "Infraestruturas Open Source",
-    "about.tag.2": "Automação & Processos",
-    "about.tag.3": "Fotografia & Ambientes",
-    "about.tag.4": "Treino & Disciplina",
-    "about.tag.5": "Música & Cultura",
-    "about.tag.6": "Resolução de Problemas",
+    "about.who.chip": "Sobre mim",
+    "about.who.title": "DEIXA-ME INTRODUZIR",
+    "about.who.name": "Chamo-me Zahar Paulo Macave",
+    "about.who.traits": "Curioso. Ambicioso. Criativo.",
+    "about.who.desc": "Trabalho com tecnologia de informação, crio páginas web e sistemas de gestão. Gosto de transformar a minha criatividade em algo web.",
 
-    // De Onde Sou, O que Faço & O que Tem em Moçambique
-    "about.origin.chip": "Origem & Atuação",
-    "about.origin.title": "De Maputo para o mundo: Engenharia de Sistemas & Soluções Tecnológicas",
-    "about.origin.loc_title": "De onde sou — Maputo, Moçambique",
-    "about.origin.loc_text": "Nascido e baseado em Maputo, a vibrante capital de Moçambique banhada pelo Oceano Índico. Cresci cercado pela riqueza da cultura moçambicana, pela resiliência do nosso povo e pela energia de uma cidade em constante transformação. Essa ligação com as minhas raízes molda a minha dedicação profissional e o compromisso de criar soluções digitais com impacto positivo e duradouro.",
-    "about.origin.work_title": "O que faço — Especialidade & Impacto",
-    "about.origin.work_text": "Atuo na interseção entre infraestrutura de TI e gestão empresarial. Sou especialista em administração de servidores Linux (Ubuntu/Debian), implementação e otimização do ERPNext/Frappe, automação de fluxos operacionais e desenvolvimento de sistemas de software por medida (PHP, JavaScript, MySQL) que garantem eficiência, segurança e crescimento para empresas e negócios.",
-    "about.moz.chip": "Conheça Moçambique",
-    "about.moz.title": "Riqueza, Cultura e Belezas Naturais da Pérola do Índico",
-    "about.moz.lede": "Moçambique é uma nação extraordinária na costa sudeste de África. Com mais de 2.500 km de praias tropicais, uma rica herança cultural, gastronomia inconfundível e santuários naturais preservados, é um país de beleza singular e acolhimento caloroso.",
-    "about.moz.card1.title": "Praias Paradisíacas & Recifes do Índico",
-    "about.moz.card1.text": "Com enseadas de areia branca e águas azul-turquesa, destinos como os Arquipélagos de Bazaruto e Quirimbas, a Praia do Tofo e a Ponta do Ouro são referências mundiais para mergulho com tubarões-baleia, raias-manta e recifes de corais intocados.",
-    "about.moz.card2.title": "Gastronomia Marítima & Sabores Únicos",
-    "about.moz.card2.text": "A culinária moçambicana funde tradições africanas e influências internacionais. Famosa pelo camarão de águas profundas, a Matapa com caranguejo e amendoim, o Galinha à Zambeziana e o autêntico molho de Piripiri moçambicano.",
-    "about.moz.card3.title": "Cultura, Ritmos & Expressão Artística",
-    "about.moz.card3.text": "Uma cultura viva marcada pelo ritmo contagiante da Marrabenta, a dança ancestral Mapiko, as expressivas esculturas em pau-preto dos artesãos Maconde e uma literatura e arte vibrantes reconhecidas internacionalmente.",
-    "about.moz.card4.title": "Fauna Selvagem & Parques Nacionais",
-    "about.moz.card4.text": "Santuários de biodiversidade como o Parque Nacional da Gorongosa (um dos maiores casos de restauração ecológica do mundo), a Reserva Especial de Maputo e o Parque Nacional do Limpopo guardam a essência da vida selvagem africana.",
+    "about.where.title": "DE ONDE SOU?",
+    "about.where.location": "MAPUTO, MOÇAMBIQUE",
+    "about.where.desc": "Cidade com muita arte e criatividade e por isso tenho inspiração pelo design das coisas que os artistas fazem, incluindo a cultura, arte, música.",
 
-    // Idiomas & Comunicação
-    "about.lang_section.chip": "Idiomas & Comunicação",
-    "about.lang_section.title": "Idiomas que Falo",
-    "about.lang1.name": "Português",
-    "about.lang1.level": "Nativo",
-    "about.lang1.desc": "Língua materna — fluência total falada, lida e escrita com excelente capacidade de articulação técnica e comunicação profissional.",
-    "about.lang2.name": "Inglês",
-    "about.lang2.level": "Intermediário",
-    "about.lang2.desc": "Comunicação fluida para leitura de documentação técnica, escrita de código, suporte a sistemas e conversação profissional.",
+    "about.lang.title": "IDIOMAS QUE ME LIGAM AO MUNDO.",
+    "about.lang.desc": "Cada idioma abre uma forma diferente de ver e comunicar com o mundo.",
+    "about.lang.pt.name": "Português",
+    "about.lang.pt.level": "FLUENTE",
+    "about.lang.en.name": "Inglês",
+    "about.lang.en.level": "BÁSICO",
 
     // Carreira & Habilidades (Linux, ERPNext, PHP, MySQL, Sistemas)
     "career.chip": "CARREIRA & HABILIDADES",
@@ -132,7 +114,7 @@ const translations = {
     "gallery.filter.nature": "Natureza",
     "gallery.filter.env": "Ambiente",
     "gallery.filter.portrait": "Retratos",
-   
+
 
     // Contacto
     "contact.chip": "CONTACTO",
@@ -173,55 +155,37 @@ const translations = {
     "home.tagline": "WhiteChoc",
     "home.location": "Maputo, Mozambique",
 
+    // 3D Fan Carousel
+    "carousel.welcome": "WELCOME TO MY",
+    "carousel.portfolio": "PORTFOLIO",
+    "carousel.role": "WEBSITE & WEB SYSTEM DEVELOPER",
+    "carousel.card1": "Home Page",
+    "carousel.card2": "About Me",
+    "carousel.card3": "Careers & Skills",
+    "carousel.card4": "Photo Gallery",
+    "carousel.card5": "Contact",
+    "carousel.dial_text": "ZAHAR MACAVE · PORTFOLIO · WEBSITE & WEB SYSTEM DEVELOPER · MAPUTO ·",
+
     // Sobre Mim (Personal Focus)
-    "about.chip": "ABOUT ME",
-    "about.title": "Who I am beyond the code",
-    "about.lede": "I believe a great professional is shaped by curiosity, discipline, and how they perceive the world. Born and raised in Maputo, I am driven by a constant desire to learn, solve real problems, and make a meaningful impact on the people and businesses around me.",
-    "about.card1.title": "Curiosity & Problem Solving",
-    "about.card1.text": "I love understanding how systems and human behavior truly work. I approach every challenge with method, patience, and a focus on the root problem.",
-    "about.card2.title": "Discipline & Lifestyle",
-    "about.card2.text": "I value daily consistency, fitness, reading, and exploring new environments and perspectives through photography and keen observation.",
-    "about.card3.title": "Values & Purpose",
-    "about.card3.text": "I believe in building relationships grounded in trust, using technology as an engine of autonomy, efficiency, and sustainable growth for our community.",
-    "about.interests.title": "What drives me",
-    "about.tag.1": "Open Source Infrastructure",
-    "about.tag.2": "Process Automation",
-    "about.tag.3": "Photography & Environments",
-    "about.tag.4": "Fitness & Discipline",
-    "about.tag.5": "Music & Culture",
-    "about.tag.6": "Problem Solving",
+    "about.who.chip": "About Me",
+    "about.who.title": "LET ME INTRODUCE",
+    "about.who.name": "My name is Zahar Paulo Macave",
+    "about.who.traits": "Curious. Ambitious. Creative.",
+    "about.who.desc": "I work with information technology, creating websites and management systems. I love turning my creativity into web solutions.",
 
-    // Where I am from, What I do & Discover Mozambique
-    "about.origin.chip": "Origin & Expertise",
-    "about.origin.title": "From Maputo to the World: Systems Engineering & Tech Solutions",
-    "about.origin.loc_title": "Where I am from — Maputo, Mozambique",
-    "about.origin.loc_text": "Born and based in Maputo, the vibrant capital of Mozambique along the Indian Ocean. I grew up surrounded by the rich Mozambican culture, the resilience of our people, and the pulse of a city in constant evolution. This deep connection to my roots shapes my work ethic and dedication to crafting digital solutions with lasting positive impact.",
-    "about.origin.work_title": "What I do — Specialization & Impact",
-    "about.origin.work_text": "I operate at the intersection of IT infrastructure and business management. I specialize in Linux server administration (Ubuntu/Debian), ERPNext/Frappe deployment and customization, process automation, and custom software development (PHP, JavaScript, MySQL) designed to deliver efficiency, security, and growth for enterprises.",
-    "about.moz.chip": "Discover Mozambique",
-    "about.moz.title": "Rich Heritage, Culture & Natural Wonders of the Pearl of the Indian Ocean",
-    "about.moz.lede": "Mozambique is an extraordinary nation on the southeastern coast of Africa. Boasting over 2,500 km of tropical coastline, a rich cultural heritage, unique cuisine, and preserved wildlife sanctuaries, it is a land of remarkable beauty and warm hospitality.",
-    "about.moz.card1.title": "Paradise Beaches & Indian Ocean Reefs",
-    "about.moz.card1.text": "Featuring white-sand shores and turquoise waters, destinations like the Bazaruto and Quirimbas Archipelagos, Tofo Beach, and Ponta do Ouro are world-renowned hotspots for diving with whale sharks, manta rays, and pristine coral reefs.",
-    "about.moz.card2.title": "Seafood Gastronomy & Unique Flavors",
-    "about.moz.card2.text": "Mozambican cuisine blends rich African traditions with global influences. Famous for deep-sea prawns, Matapa with crab and peanuts, Zambezian grilled chicken, and the world-famous Mozambican Piri-Piri sauce.",
-    "about.moz.card3.title": "Culture, Rhythms & Artistic Expression",
-    "about.moz.card3.text": "A vibrant culture featuring the infectious rhythm of Marrabenta, the ancestral Mapiko dance, intricate ebony wood sculptures by Makonde artisans, and internationally acclaimed literature and fine arts.",
-    "about.moz.card4.title": "Wildlife & National Parks",
-    "about.moz.card4.text": "Biodiversity sanctuaries such as Gorongosa National Park (one of the world's greatest ecological restoration success stories), Maputo Special Reserve, and Limpopo National Park preserve the authentic African wilderness.",
+    "about.where.title": "WHERE I'M FROM?",
+    "about.where.location": "MAPUTO, MOZAMBIQUE",
+    "about.where.desc": "A city full of art and creativity, inspiring my passion for design through what local artists create, including culture, art, and music.",
 
-    // Languages & Communication
-    "about.lang_section.chip": "Languages & Communication",
-    "about.lang_section.title": "Languages I Speak",
-    "about.lang1.name": "Portuguese",
-    "about.lang1.level": "Native",
-    "about.lang1.desc": "Native language — full fluency in speaking, reading, and writing, with strong technical and professional communication skills.",
-    "about.lang2.name": "English",
-    "about.lang2.level": "Intermediate",
-    "about.lang2.desc": "Fluent communication for reading technical documentation, coding, system support, and professional conversation.",
+    "about.lang.title": "LANGUAGES CONNECTING ME TO THE WORLD.",
+    "about.lang.desc": "Each language opens a different way of seeing and communicating with the world.",
+    "about.lang.pt.name": "Portuguese",
+    "about.lang.pt.level": "FLUENT",
+    "about.lang.en.name": "English",
+    "about.lang.en.level": "BASIC",
 
     // Carreira & Habilidades (Linux, ERPNext, PHP, MySQL)
-  "career.chip": "CAREER",
+    "career.chip": "CAREER",
     "career.title": "Technical skills & projects",
     "career.lede": "Specialized in Linux systems administration, ERPNext deployment, and building robust enterprise management systems.",
     "career.carousel_chip": "Tech Stack",
@@ -352,7 +316,7 @@ function applyLang(lang) {
     // 6. Guardar no localStorage de forma segura
     try {
       localStorage.setItem(LANG_KEY, currentLang);
-    } catch (e) {}
+    } catch (e) { }
   } catch (err) {
     console.warn("i18n error:", err);
   }
@@ -448,6 +412,20 @@ function initApp() {
     });
   }
 
+  // Controla o estado compacto da assinatura no header ao rolar a página
+  const siteHeader = document.querySelector('header.site-header');
+  if (siteHeader) {
+    const handleScroll = () => {
+      if (window.scrollY > 30) {
+        siteHeader.classList.add('scrolled');
+      } else {
+        siteHeader.classList.remove('scrolled');
+      }
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll();
+  }
+
   // Destaque do link ativo no menu
   menuLinks.forEach(a => {
     const href = a.getAttribute('href');
@@ -457,6 +435,96 @@ function initApp() {
       a.classList.remove('active');
     }
   });
+
+  // ---------- BARALHO 3D EM LEQUE (FAN ARC 3D CAROUSEL) ----------
+  const fanDeckCards = document.getElementById('fanDeckCards');
+  const fanPrev = document.getElementById('fanPrev');
+  const fanNext = document.getElementById('fanNext');
+  const fanDialDisc = document.getElementById('fanDialDisc');
+
+  if (fanDeckCards) {
+    const cards = Array.from(fanDeckCards.querySelectorAll('.fan-card'));
+    const totalCards = cards.length;
+    let activeIndex = 0;
+    let autoPlayTimer = null;
+
+    const updateFanPositions = () => {
+      cards.forEach((card, idx) => {
+        let offset = idx - activeIndex;
+
+        // Normalização modular para posicionamento circular (-2, -1, 0, 1, 2)
+        while (offset > Math.floor(totalCards / 2)) offset -= totalCards;
+        while (offset < -Math.floor(totalCards / 2)) offset += totalCards;
+
+        card.setAttribute('data-offset', offset);
+      });
+
+      // Rotação síncrona do bússola/disco giratório (72 graus por cartão)
+      if (fanDialDisc) {
+        fanDialDisc.style.transform = `rotate(${activeIndex * -72}deg)`;
+      }
+    };
+
+    const nextCard = () => {
+      activeIndex = (activeIndex + 1) % totalCards;
+      updateFanPositions();
+    };
+
+    const prevCard = () => {
+      activeIndex = (activeIndex - 1 + totalCards) % totalCards;
+      updateFanPositions();
+    };
+
+    if (fanNext) fanNext.addEventListener('click', nextCard);
+    if (fanPrev) fanPrev.addEventListener('click', prevCard);
+
+    // Clique individual nas cartas (apenas roda o carrossel, sem links de página)
+    cards.forEach((card, idx) => {
+      card.addEventListener('click', () => {
+        activeIndex = idx;
+        updateFanPositions();
+      });
+    });
+
+    // Rotação Automática Suave a cada 3.5 segundos
+    const startAutoPlay = () => {
+      stopAutoPlay();
+      autoPlayTimer = setInterval(nextCard, 3500);
+    };
+
+    const stopAutoPlay = () => {
+      if (autoPlayTimer) clearInterval(autoPlayTimer);
+    };
+
+    fanDeckCards.addEventListener('mouseenter', stopAutoPlay);
+    fanDeckCards.addEventListener('mouseleave', startAutoPlay);
+
+    // Suporte para arrasto e gestos Touch/Swipe
+    let startX = 0;
+    let isDragging = false;
+
+    fanDeckCards.addEventListener('touchstart', (e) => {
+      startX = e.touches[0].clientX;
+      isDragging = true;
+      stopAutoPlay();
+    }, { passive: true });
+
+    fanDeckCards.addEventListener('touchend', (e) => {
+      if (!isDragging) return;
+      const endX = e.changedTouches[0].clientX;
+      const diffX = startX - endX;
+      if (Math.abs(diffX) > 35) {
+        if (diffX > 0) nextCard();
+        else prevCard();
+      }
+      isDragging = false;
+      startAutoPlay();
+    }, { passive: true });
+
+    // Inicialização
+    updateFanPositions();
+    startAutoPlay();
+  }
 
   // ---------- GALERIA: FILTROS INTERATIVOS POR SECÇÃO ----------
   const filterBtns = document.querySelectorAll('.filter-btn');
@@ -509,7 +577,7 @@ function initApp() {
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 
   // ---------- SCROLL REVEAL SUAVE ----------
-  const revealEls = document.querySelectorAll('.plain-card, .gal-photo-card, .t-item, .project-card');
+  const revealEls = document.querySelectorAll('.plain-card, .t-item, .project-card');
   if (revealEls.length > 0 && 'IntersectionObserver' in window) {
     const io = new IntersectionObserver((entries) => {
       entries.forEach(e => {
@@ -532,8 +600,44 @@ function initApp() {
   // ---------- CARROSSEL DE HABILIDADES & TECNOLOGIAS ----------
   initSkillsCarousel();
 
+  // ---------- SLIDER DE FOTOS - QUEM SOU ----------
+  initWhoSlider();
+
   // ---------- GLOBO TERRESTRE 3D NO FOOTER ----------
   initFooterGlobe();
+}
+
+// ==========================================
+// CONTROLADOR DO SLIDER DE FOTOS - QUEM SOU
+// ==========================================
+function initWhoSlider() {
+  const slider = document.getElementById('whoPhotoSlider');
+  if (!slider) return;
+  const slides = slider.querySelectorAll('.who-slide');
+  if (slides.length === 0) return;
+
+  let currentIndex = 0;
+  let timer = null;
+
+  function showSlide(idx) {
+    currentIndex = (idx + slides.length) % slides.length;
+    slides.forEach((s, i) => s.classList.toggle('active', i === currentIndex));
+  }
+
+  function startAutoPlay() {
+    stopAutoPlay();
+    timer = setInterval(() => {
+      showSlide(currentIndex + 1);
+    }, 3500);
+  }
+
+  function stopAutoPlay() {
+    if (timer) clearInterval(timer);
+  }
+
+  slider.addEventListener('mouseenter', stopAutoPlay);
+  slider.addEventListener('mouseleave', startAutoPlay);
+  startAutoPlay();
 }
 
 // Inicialização segura imediata
@@ -1212,8 +1316,8 @@ function finishLoading() {
   }
 
   // Disparar animação GSAP do nome da Home e partículas
-  try { initNameGSAP(); } catch(e) {}
-  try { initSpaceParticles(); } catch(e) {}
+  try { initNameGSAP(); } catch (e) { }
+  try { initSpaceParticles(); } catch (e) { }
 }
 
 // ==========================================
@@ -1230,7 +1334,7 @@ function initLinkPrefetch() {
       link.rel = 'prefetch';
       link.href = href;
       document.head.appendChild(link);
-    } catch(e) {}
+    } catch (e) { }
   };
 
   document.querySelectorAll('a[href$=".html"]').forEach(a => {
@@ -1368,7 +1472,7 @@ function initSpaceParticles() {
       this.angle = Math.random() * Math.PI * 2;
       this.rotSpeed = (Math.random() - 0.5) * 0.015;
       this.opacity = Math.random() * 0.4 + 0.35;
-      
+
       // Gera vértices irregulares de rocha espacial
       this.vertices = [];
       const numPts = 6;
@@ -1481,4 +1585,100 @@ function initSpaceParticles() {
   observer.observe(canvas);
 
   loop();
+}
+
+// ==========================================
+// SLIDER DA SEÇÃO "QUEM SOU EU?" (WHO AM I?)
+// ==========================================
+function initWhoAmISlider() {
+  const container = document.getElementById('whoAmISlider');
+  if (!container) return;
+
+  const slides = [
+    {
+      eyebrowKey: "about.slide1.eyebrow",
+      titleKey: "about.slide1.title",
+      taglineKey: "about.slide1.tagline",
+      textKey: "about.slide1.text",
+      imgSrc: "assets/imgs/pessoais/0121.jpeg"
+    },
+    {
+      eyebrowKey: "about.slide2.eyebrow",
+      titleKey: "about.slide2.title",
+      taglineKey: "about.slide2.tagline",
+      textKey: "about.slide2.text",
+      imgSrc: "assets/imgs/pessoais/0116.jpeg"
+    },
+    {
+      eyebrowKey: "about.slide3.eyebrow",
+      titleKey: "about.slide3.title",
+      taglineKey: "about.slide3.tagline",
+      textKey: "about.slide3.text",
+      imgSrc: "assets/imgs/pessoais/flic-7.jpeg"
+    }
+  ];
+
+  let currentIdx = 0;
+  const photoDots = container.querySelectorAll('.photo-dot');
+  const vertDots = container.querySelectorAll('.vert-dot');
+  const eyebrowEl = container.querySelector('[data-i18n-slide="eyebrow"]');
+  const titleEl = container.querySelector('[data-i18n-slide="title"]');
+  const taglineEl = container.querySelector('[data-i18n-slide="tagline"]');
+  const textEl = container.querySelector('[data-i18n-slide="text"]');
+  const imgEl = container.querySelector('.who-slide-img');
+
+  function updateSlide(idx) {
+    currentIdx = idx;
+    const slide = slides[idx];
+    const currentLang = getSavedLang();
+    const dict = translations[currentLang] || translations.pt;
+
+    if (eyebrowEl) {
+      eyebrowEl.setAttribute('data-i18n', slide.eyebrowKey);
+      eyebrowEl.textContent = dict[slide.eyebrowKey] || "";
+    }
+    if (titleEl) {
+      titleEl.setAttribute('data-i18n', slide.titleKey);
+      titleEl.textContent = dict[slide.titleKey] || "";
+    }
+    if (taglineEl) {
+      taglineEl.setAttribute('data-i18n', slide.taglineKey);
+      taglineEl.textContent = dict[slide.taglineKey] || "";
+    }
+    if (textEl) {
+      textEl.setAttribute('data-i18n', slide.textKey);
+      textEl.textContent = dict[slide.textKey] || "";
+    }
+    if (imgEl) {
+      imgEl.style.opacity = '0.3';
+      setTimeout(() => {
+        imgEl.src = slide.imgSrc;
+        imgEl.style.opacity = '1';
+      }, 150);
+    }
+
+    photoDots.forEach((d, i) => d.classList.toggle('active', i === idx));
+    vertDots.forEach((d, i) => d.classList.toggle('active', i === idx));
+  }
+
+  photoDots.forEach((dot, idx) => {
+    dot.addEventListener('click', () => updateSlide(idx));
+  });
+
+  vertDots.forEach((dot, idx) => {
+    dot.addEventListener('click', () => updateSlide(idx));
+  });
+
+  // Auto-play a cada 6 segundos
+  let autoTimer = setInterval(() => {
+    updateSlide((currentIdx + 1) % slides.length);
+  }, 6000);
+
+  container.addEventListener('mouseenter', () => clearInterval(autoTimer));
+  container.addEventListener('mouseleave', () => {
+    clearInterval(autoTimer);
+    autoTimer = setInterval(() => {
+      updateSlide((currentIdx + 1) % slides.length);
+    }, 6000);
+  });
 }

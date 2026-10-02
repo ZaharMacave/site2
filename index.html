@@ -7,8 +7,11 @@
   <meta name="description" content="Portfólio de Zahar Paulo Macave — Especialista Linux, ERPNext e Desenvolvedor de Sistemas.">
   
   <!-- Favicons -->
-
-  <link rel="shortcut icon" href="signature/favicon_io/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/signature/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/signature/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/signature/favicon_io/favicon-16x16.png">
+  <link rel="shortcut icon" href="assets/signature/favicon_io/favicon.ico">
+  <link rel="manifest" href="assets/signature/favicon_io/site.webmanifest">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -64,7 +67,7 @@
     </div>
 
     <main class="wrap">
-      <!-- HOME -->
+      <!-- HOME HERO -->
       <section class="page active" id="page-home">
         <div class="home-hero">
           <div class="home-hero-bg">
@@ -83,6 +86,131 @@
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <!-- SEGUNDA SECÇÃO: FAN ARC 3D CAROUSEL (INSPIRADO NO LAYOUT PORTFOLIO) -->
+      <section class="fan-carousel-section" id="pages-section">
+        <div class="wrap fan-carousel-wrapper">
+          
+          <!-- HEADER GRÁFICO EDITORIAL -->
+          <div class="fan-header-grid">
+            <!-- Marcadores Crosshair (+) -->
+            <span class="fan-cross cross-tl">+</span>
+            <span class="fan-cross cross-tc">+</span>
+            <span class="fan-cross cross-tr">+</span>
+            <span class="fan-cross cross-bl">+</span>
+            <span class="fan-cross cross-bc">+</span>
+            <span class="fan-cross cross-br">+</span>
+
+            <div class="fan-header-top">
+              <div class="fan-welcome" data-i18n="carousel.welcome">BEM-VINDO AO MEU</div>
+              <div class="fan-icon-eye" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/>
+                  <circle cx="12" cy="12" r="3"/>
+                </svg>
+              </div>
+            </div>
+
+            <!-- TÍTULO TIPOGRÁFICO SOBREPOSTO PORTFOLIO COM BARRA DE DESTAQUE -->
+            <div class="fan-title-container">
+              <div class="fan-accent-bar"></div>
+              <div class="fan-title-stack">
+                <span class="fan-title-outline" data-i18n="carousel.portfolio">PORTFÓLIO</span>
+                <span class="fan-title-solid" data-i18n="carousel.portfolio">PORTFÓLIO</span>
+              </div>
+            </div>
+
+            <div class="fan-header-bottom">
+              <span class="fan-author">ZAHAR MACAVE</span>
+              <span class="fan-role" data-i18n="carousel.role">DESENVOLVEDOR DE WEBSITES &amp; SISTEMAS WEB</span>
+            </div>
+          </div>
+
+          <!-- PALCO DO BARALHO 3D EM LEQUE -->
+          <div class="fan-deck-stage" id="fanDeckStage">
+            <div class="fan-deck-cards" id="fanDeckCards">
+              
+              <!-- Card 0: Página Inicial -->
+              <div class="fan-card" data-index="0" data-page="home">
+                <div class="fan-card-inner">
+                  <div class="fan-card-media" style="background-image: url('assets/imgs/pessoais/u4vl2.jpg');"></div>
+                  <div class="fan-card-overlay">
+                    <span class="fan-card-num">01</span>
+                    <h3 class="fan-card-title" data-i18n="carousel.card1">Página Inicial</h3>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 1: Sobre Mim -->
+              <div class="fan-card" data-index="1" data-page="sobre">
+                <div class="fan-card-inner">
+                  <div class="fan-card-media" style="background-image: url('assets/imgs/pessoais/0120.jpeg');"></div>
+                  <div class="fan-card-overlay">
+                    <span class="fan-card-num">02</span>
+                    <h3 class="fan-card-title" data-i18n="carousel.card2">Sobre Mim</h3>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 2: Carreiras & Habilidades -->
+              <div class="fan-card" data-index="2" data-page="carreira">
+                <div class="fan-card-inner">
+                  <div class="fan-card-media" style="background-image: url('assets/imgs/background/Lego The Matrix.jpg');"></div>
+                  <div class="fan-card-overlay">
+                    <span class="fan-card-num">03</span>
+                    <h3 class="fan-card-title" data-i18n="carousel.card3">Carreiras &amp; Habilidades</h3>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 3: Galeria de Fotos -->
+              <div class="fan-card" data-index="3" data-page="galeria">
+                <div class="fan-card-inner">
+                  <div class="fan-card-media" style="background-image: url('assets/imgs/pessoais/0121.jpeg');"></div>
+                  <div class="fan-card-overlay">
+                    <span class="fan-card-num">04</span>
+                    <h3 class="fan-card-title" data-i18n="carousel.card4">Galeria de Fotos</h3>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 4: Contacto -->
+              <div class="fan-card" data-index="4" data-page="contacto">
+                <div class="fan-card-inner">
+                  <div class="fan-card-media" style="background-image: url('assets/imgs/background/344455071523983609.jpg');"></div>
+                  <div class="fan-card-overlay">
+                    <span class="fan-card-num">05</span>
+                    <h3 class="fan-card-title" data-i18n="carousel.card5">Contacto</h3>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- DISCO GIRATÓRIO EMBAIXO DAS CARTAS -->
+            <div class="fan-dial-wrapper">
+              <div class="fan-dial-pointer">
+                <span class="dial-arrow">▲</span>
+                <span class="dial-label">ME</span>
+              </div>
+              <div class="fan-dial-disc" id="fanDialDisc">
+                <svg viewBox="0 0 300 300" width="300" height="300">
+                  <path id="dialPath" d="M 150, 150 m -115, 0 a 115,115 0 1,1 230,0 a 115,115 0 1,1 -230,0" fill="none"/>
+                  <text class="dial-svg-text">
+                    <textPath href="#dialPath" startOffset="0%" data-i18n="carousel.dial_text">
+                      ZAHAR MACAVE · PORTFÓLIO · WEBSITES &amp; SISTEMAS WEB · MAPUTO ·
+                    </textPath>
+                  </text>
+                  <circle cx="150" cy="150" r="95" fill="none" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1" stroke-dasharray="3,3"/>
+                  <circle cx="150" cy="150" r="55" fill="none" stroke="rgba(255, 255, 255, 0.25)" stroke-width="1"/>
+                </svg>
+              </div>
+            </div>
+
+          </div>
+
         </div>
       </section>
     </main>
