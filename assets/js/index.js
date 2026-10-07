@@ -4,7 +4,7 @@
 const translations = {
   pt: {
     // Títulos de Página
-    "page.title.home": "ZAHAR MACAVE",
+    "page.title.home": "Zahar Paulo Macave",
     "page.title.about": "SOBRE MIM",
     "page.title.career": "CARREIRA & HABILIDADES",
     "page.title.gallery": "GALERIA DE FOTOS",
@@ -134,7 +134,7 @@ const translations = {
   },
   en: {
     // Títulos de Página
-    "page.title.home": "ZAHAR MACAVE",
+    "page.title.home": "Zahar Paulo Macave",
     "page.title.about": "ABOUT ME",
     "page.title.career": "CAREER",
     "page.title.gallery": "PHOTO GALLERY",

@@ -36,6 +36,7 @@
 
   html {
     scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
   }
 
   body {
@@ -50,6 +51,18 @@
     flex-direction: column;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Performance Rendering Optimizations */
+  img, iframe, video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .site-footer, .page-section, .carousel-3d-section {
+    content-visibility: auto;
+    contain-intrinsic-size: 1px 500px;
   }
 
   body.page-about {
